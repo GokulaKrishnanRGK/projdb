@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+  <logger name="org.springframework" level="INFO" additivity="true"/>
+  <logger name="org.apache.catalina" level="INFO" additivity="true"/>>
+  <logger name="com.neu.csye6220" level="INFO" additivity="true"/>
+
+  <property file="F:/NEU/ESD/projdb/logger_config/logger.properties"/>
+  <include file="F:/NEU/ESD/projdb/logger_config/logger.xml"/>
+
+</configuration>
